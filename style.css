@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px; /* Set a base font size */
+  color: black;
+}
+
+/* Links */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: aliceblue;
+  text-decoration: underline; /* Add a subtle underline on hover */
+}
+
+/* Unordered List */
+ul {
+  list-style: circle;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+    margin: 20px 0; /* Add some margin above and below the button */
+  }
+  
+  .back-to-home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
