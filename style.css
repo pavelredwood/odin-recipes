@@ -1,56 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px; /* Set a base font size */
+  font-family: "DM Sans", Geneva, Tahoma, sans-serif;
   color: black;
-  border: 1px dotted black;
-  padding: 2%;
-  margin: 5%;
 }
 
 #title {
   text-align: center;
 }
 
-/* Links */
+h1 h2 h3 {
+  line-height: 1.25;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
 a {
   color: black;
   text-decoration: none;
 }
 
-a:hover {
-  background-color: aliceblue;
-  text-decoration: underline; /* Add a subtle underline on hover */
+.menu-buttons>li>a {
+  display: block;
+  background-color: hsl(120, 41%, 97%);
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
-/* Unordered List */
-ul {
-  list-style: none;
-  /* padding-left: 20px; */
-  margin: auto;
+.menu-buttons>li>a:hover {
+  background-color: hsl(120, 41%, 90%);
+  transition: 0.2s;
 }
 
-li {
-  padding: 0px 0px 10px 0px;
-  margin: 1px auto;
+.menu-buttons>li>a>h1 {
+  display: block;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.menu-buttons>li>a>p {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 500;
+  overflow: hidden;
 }
 
 .button-container {
-    text-align: center; /* Center the button horizontally */
-    margin: 20px 0; /* Add some margin above and below the button */
-  }
-  
-  .back-to-home-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Green background color */
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer;
-  }
-  
-  .back-to-home-button:hover {
-    background-color: #45a049; /* Darker green on hover */
-  }
-  
+  text-align: center;
+  margin: 20px 0;
+}
+
+.back-to-home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-home-button:hover {
+  background-color: #45a049;
+}
